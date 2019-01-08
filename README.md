@@ -1,6 +1,8 @@
 # spark-kubernetes-docker-image
 Docker image use to run Apache Spark inside Kubernetes cluster as indicated here: https://spark.apache.org/docs/latest/running-on-kubernetes.html#docker-images
 
+Built from offcial spark Dockerfile: https://github.com/apache/spark/tree/master/resource-managers/kubernetes/docker/src/main/dockerfiles/spark . 
+
 Get the image from here: https://cloud.docker.com/repository/docker/thangbui/spark . 
 Tags:  
   `<version`>-f tag: Dockerfile to build for JVM based Jobs. By default builds the Dockerfile shipped with Spark.  
